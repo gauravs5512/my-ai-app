@@ -1,3 +1,5 @@
+import { Sparkles } from "lucide-react";
+
 import type { SkillGroup } from "../Resume.types";
 import BulletList from "../components/BulletList";
 import ResumeSection from "../components/ResumeSection";
@@ -9,6 +11,7 @@ type SkillsSectionProps = {
 const SkillsSection = ({ skills }: SkillsSectionProps) => (
   <ResumeSection
     title="Skills Matrix"
+    icon={Sparkles}
     description="Highlighting technical leadership across capital markets platforms."
   >
     <div className="space-y-5">

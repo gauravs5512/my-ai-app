@@ -1,4 +1,4 @@
-import { Globe, Linkedin, Mail, MapPin, Phone } from "lucide-react";
+import { Globe, Linkedin, Mail, MapPin } from "lucide-react";
 
 import type { ResumeData } from "./Resume.types";
 
@@ -20,18 +20,11 @@ export const resumeData: ResumeData = {
       icon: MapPin,
     },
     {
-      id: "phone",
-      label: "Phone",
-      value: "+91 94076 69172",
-      icon: Phone,
-      href: "tel:+919407669172",
-    },
-    {
       id: "email",
       label: "Email",
-      value: "gaurav.mail125@gmail.com",
+      value: "personal@singhgaurav.co.in",
       icon: Mail,
-      href: "mailto:gaurav.mail125@gmail.com",
+      href: "mailto:personal@singhgaurav.co.in",
     },
     {
       id: "profile",

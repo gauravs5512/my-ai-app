@@ -1,3 +1,5 @@
+import { Contact2 } from "lucide-react";
+
 import type { ContactDetail } from "../Resume.types";
 import ResumeSection from "../components/ResumeSection";
 
@@ -36,7 +38,7 @@ const ContactItem = ({ detail }: { detail: ContactDetail }) => {
 };
 
 const ContactSection = ({ contacts }: ContactSectionProps) => (
-  <ResumeSection title="Contact">
+  <ResumeSection title="Contact" icon={Contact2}>
     <div className="space-y-3">
       {contacts.map((detail) => (
         <ContactItem key={detail.id} detail={detail} />

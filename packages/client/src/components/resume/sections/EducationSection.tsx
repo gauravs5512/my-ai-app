@@ -1,3 +1,5 @@
+import { GraduationCap } from "lucide-react";
+
 import type { Education } from "../Resume.types";
 import ResumeSection from "../components/ResumeSection";
 
@@ -6,7 +8,7 @@ type EducationSectionProps = {
 };
 
 const EducationSection = ({ education }: EducationSectionProps) => (
-  <ResumeSection title="Education">
+  <ResumeSection title="Education" icon={GraduationCap}>
     <div className="space-y-4">
       {education.map(({ id, degree, school, location, year }) => (
         <div

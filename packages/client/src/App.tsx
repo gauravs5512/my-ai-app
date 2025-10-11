@@ -10,21 +10,21 @@ type View = "chat" | "resume";
 
 const NAV_ITEMS: FeatureNavItem<View>[] = [
   {
-    key: "chat",
-    label: "AI Chatbot",
-    description:
-      "Experiment with the conversational agent that powers financial product discovery.",
-  },
-  {
     key: "resume",
     label: "Gaurav's CV",
     description:
       "Review Gaurav Singh’s leadership experience, technical depth, and project portfolio.",
   },
+  {
+    key: "chat",
+    label: "AI Chatbot",
+    description:
+      "Experiment with the conversational agent that powers financial product discovery.",
+  },
 ];
 
 function App() {
-  const [activeView, setActiveView] = useState<View>("chat");
+  const [activeView, setActiveView] = useState<View>("resume");
   const activeMeta = NAV_ITEMS.find((item) => item.key === activeView);
 
   return (

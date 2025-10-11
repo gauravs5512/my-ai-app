@@ -1,8 +1,10 @@
+import { FolderKanban } from "lucide-react";
+
 import type { ProjectGroup } from "../Resume.types";
 import BulletList from "../components/BulletList";
 import ResumeSection from "../components/ResumeSection";
 import TagList from "../components/TagList";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "../../ui/tabs";
 
 type ProjectsSectionProps = {
   groups: ProjectGroup[];
@@ -18,6 +20,7 @@ const ProjectsSection = ({ groups }: ProjectsSectionProps) => {
   return (
     <ResumeSection
       title="Projects"
+      icon={FolderKanban}
       description="Selected engagements spanning leadership initiatives and personal innovation."
     >
       <Tabs defaultValue={firstGroup.id} className="space-y-6">

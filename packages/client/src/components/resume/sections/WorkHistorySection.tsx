@@ -1,3 +1,5 @@
+import { BriefcaseBusiness } from "lucide-react";
+
 import type { Experience } from "../Resume.types";
 import BulletList from "../components/BulletList";
 import ResumeSection from "../components/ResumeSection";
@@ -7,7 +9,7 @@ type WorkHistorySectionProps = {
 };
 
 const WorkHistorySection = ({ experiences }: WorkHistorySectionProps) => (
-  <ResumeSection title="Work History">
+  <ResumeSection title="Work History" icon={BriefcaseBusiness}>
     <div className="space-y-8">
       {experiences.map(
         ({ id, role, company, location, period, achievements }) => (

@@ -1,3 +1,5 @@
+import { ScrollText } from "lucide-react";
+
 import ResumeSection from "../components/ResumeSection";
 
 type SummarySectionProps = {
@@ -5,7 +7,7 @@ type SummarySectionProps = {
 };
 
 const SummarySection = ({ summary }: SummarySectionProps) => (
-  <ResumeSection title="Executive Summary">
+  <ResumeSection title="Executive Summary" icon={ScrollText}>
     <p>{summary}</p>
   </ResumeSection>
 );

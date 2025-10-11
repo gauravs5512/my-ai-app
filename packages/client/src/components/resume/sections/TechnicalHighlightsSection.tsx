@@ -1,3 +1,5 @@
+import { Cpu } from "lucide-react";
+
 import ResumeSection from "../components/ResumeSection";
 import TagList from "../components/TagList";
 
@@ -13,6 +15,7 @@ const TechnicalHighlightsSection = ({
   return (
     <ResumeSection
       title="Technical Highlights"
+      icon={Cpu}
       description="Core technologies and platforms I rely on to deliver resilient solutions."
     >
       <div className="rounded-2xl border border-emerald-100 bg-emerald-50/60 p-5 shadow-sm shadow-emerald-100">
