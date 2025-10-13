@@ -17,7 +17,7 @@ const NAV_ITEMS: FeatureNavItem<View>[] = [
   },
   {
     key: "chat",
-    label: "AI Chatbot",
+    label: "Gaurav's Assistant",
     description:
       "Experiment with the conversational agent that powers financial product discovery.",
   },

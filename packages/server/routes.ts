@@ -5,7 +5,7 @@ import { chatController } from "./controller/chat.controller";
 const router = express.Router();
 
 router.post("/api/chat", async (req: Request, res: Response) =>
-  chatController.senMessage(req, res),
+  chatController.sendMessage(req, res),
 );
 
 export default router;
