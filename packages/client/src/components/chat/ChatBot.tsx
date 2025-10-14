@@ -21,6 +21,7 @@ const ChatBot = () => {
   const [error, setError] = React.useState<string | null>(null);
 
   const conversationId = useRef<string>(crypto.randomUUID());
+  const messagesContainerRef = React.useRef<HTMLDivElement | null>(null);
 
   const onSubmit = async ({ prompt }: ChatFormData) => {
     try {
@@ -42,9 +43,22 @@ const ChatBot = () => {
     }
   };
 
+  React.useEffect(() => {
+    const container = messagesContainerRef.current;
+    if (container) {
+      container.scrollTo({
+        top: container.scrollHeight,
+        behavior: "smooth",
+      });
+    }
+  }, [messeges, isBotTypeing]);
+
   return (
     <div className="flex flex-col h-full">
-      <div className="flex flex-col flex-1 gap-3 mb-10 overflow-y-auto">
+      <div
+        ref={messagesContainerRef}
+        className="flex flex-col flex-1 gap-3 mb-10 overflow-y-auto"
+      >
         <ChatMessages messages={messeges} />
         {isBotTypeing && <TypingIndicator />}
         {error && <p className="text-red-500">{error}</p>}
