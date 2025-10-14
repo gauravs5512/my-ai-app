@@ -9,8 +9,6 @@ export default defineConfig(({ mode, command }) => {
   const devApiUrl = env.VITE_DEV_API_URL ?? "http://localhost:8080";
   const prodApiUrl = env.VITE_PROD_API_URL ?? env.VITE_DEV_API_URL ?? devApiUrl;
 
-  const isDev = command === "serve";
-
   const server = {
     proxy: {
       "/api": {
@@ -20,8 +18,6 @@ export default defineConfig(({ mode, command }) => {
     },
   };
 
-  const apiBaseUrl = isDev ? "/api" : `${prodApiUrl.replace(/\/+$/, "")}/api`;
-
   return {
     plugins: [react(), tailwindcss()],
     resolve: {
@@ -30,8 +26,5 @@ export default defineConfig(({ mode, command }) => {
       },
     },
     server,
-    define: {
-      "import.meta.env.VITE_API_BASE_URL": JSON.stringify(apiBaseUrl),
-    },
   };
 });
