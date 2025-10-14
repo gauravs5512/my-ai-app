@@ -7,7 +7,12 @@ import ChatInput, { type ChatFormData } from "../ChatInput";
 
 type ChatResponse = {
   message: string;
+  conversationId: string;
 };
+
+const apiClient = axios.create({
+  baseURL: import.meta.env.VITE_API_BASE_URL ?? "/api",
+});
 
 const ChatBot = () => {
   const [messeges, setMessages] = React.useState<Message[]>([]);
@@ -21,11 +26,12 @@ const ChatBot = () => {
       setMessages((prev) => [...prev, { content: prompt, role: "user" }]);
       setError(null);
       setIsBotTyping(true);
-      const { data } = await axios.post<ChatResponse>("/api/chat", {
+      const { data } = await apiClient.post<ChatResponse>("/chat", {
         prompt: prompt,
         conversationId: conversationId.current,
       });
 
+      conversationId.current = data.conversationId;
       setMessages((prev) => [...prev, { content: data.message, role: "bot" }]);
     } catch (error) {
       console.error(error);
