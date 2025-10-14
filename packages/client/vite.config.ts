@@ -6,7 +6,7 @@ import path from "path";
 // https://vite.dev/config/
 export default defineConfig(({ mode, command }) => {
   const env = loadEnv(mode, process.cwd(), "");
-  const devApiUrl = env.VITE_DEV_API_URL ?? "http://localhost:3000";
+  const devApiUrl = env.VITE_DEV_API_URL ?? "http://localhost:8080";
   const prodApiUrl = env.VITE_PROD_API_URL ?? env.VITE_DEV_API_URL ?? devApiUrl;
 
   const isDev = command === "serve";
@@ -20,7 +20,7 @@ export default defineConfig(({ mode, command }) => {
     },
   };
 
-  const apiBaseUrl = isDev ? "/api" : prodApiUrl;
+  const apiBaseUrl = isDev ? "/api" : `${prodApiUrl.replace(/\/+$/, "")}/api`;
 
   return {
     plugins: [react(), tailwindcss()],
