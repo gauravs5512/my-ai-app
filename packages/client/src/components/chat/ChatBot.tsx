@@ -19,7 +19,7 @@ const ChatBot = () => {
   const [isBotTypeing, setIsBotTyping] = React.useState(false);
   const [error, setError] = React.useState<string | null>(null);
 
-  const conversationId = useRef(crypto.randomUUID());
+  const conversationId = useRef<string>(crypto.randomUUID());
 
   const onSubmit = async ({ prompt }: ChatFormData) => {
     try {
