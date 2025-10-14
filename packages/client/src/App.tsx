@@ -17,7 +17,7 @@ const NAV_ITEMS: FeatureNavItem<View>[] = [
   },
   {
     key: "chat",
-    label: "Talk Gaurav's Assistant",
+    label: "Talk to Gaurav's Assistant",
     description:
       "You can ask anything related to Gaurav's work experience, skills, and projects.",
   },
