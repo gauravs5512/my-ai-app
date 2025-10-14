@@ -25,6 +25,7 @@ Accomplished Senior Software Developer Lead with a proven track record at Goldma
 - Frequent hackathon participant
 - Cricket enthusiast
 - Avid fan of anime and movies
+- Love Chess, current ELO is 1700 at Chess.com as of Oct 2025
 
 ## Contact Information
 - Address: Bengaluru, KA 560002
