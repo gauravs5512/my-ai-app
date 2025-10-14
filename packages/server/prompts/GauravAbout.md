@@ -2,9 +2,14 @@
 
 ## Personal Profile
 - Title: Vice President  
-- Date of Birth: 12 May 1993  
+- Date of Birth: 12 May 1993 
+- Age: 32 years at 2025 
 - Working Hours: 10:00–20:00 IST (weekdays)  
 - Married since 11 Dec 2021
+- Married to Shivani Bhadoria
+- Spouse is Digital content creater
+- Father was Forest Officer last post was SDO, now retired
+- Mother is house wife
 - Has 1 Brother whos name is Saurabh Singh
 
 ## Summary
