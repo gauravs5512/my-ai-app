@@ -12,6 +12,7 @@ type ChatResponse = {
 
 const apiClient = axios.create({
   baseURL: import.meta.env.VITE_API_BASE_URL ?? "/api",
+  timeout: 120_000, // allow up to 2 minutes for responses
 });
 
 const ChatBot = () => {
