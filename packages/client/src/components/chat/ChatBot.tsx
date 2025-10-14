@@ -22,6 +22,7 @@ const ChatBot = () => {
 
   const conversationId = useRef<string>(crypto.randomUUID());
   const messagesContainerRef = React.useRef<HTMLDivElement | null>(null);
+  const messagesEndRef = React.useRef<HTMLDivElement | null>(null);
 
   const onSubmit = async ({ prompt }: ChatFormData) => {
     try {
@@ -45,12 +46,18 @@ const ChatBot = () => {
 
   React.useEffect(() => {
     const container = messagesContainerRef.current;
-    if (container) {
+    if (
+      container &&
+      Math.abs(
+        container.scrollHeight - container.clientHeight - container.scrollTop,
+      ) <= 1
+    ) {
       container.scrollTo({
         top: container.scrollHeight,
         behavior: "smooth",
       });
     }
+    messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
   }, [messeges, isBotTypeing]);
 
   return (
@@ -62,6 +69,7 @@ const ChatBot = () => {
         <ChatMessages messages={messeges} />
         {isBotTypeing && <TypingIndicator />}
         {error && <p className="text-red-500">{error}</p>}
+        <div ref={messagesEndRef} />
       </div>
       <ChatInput onSubmit={onSubmit} />
     </div>
