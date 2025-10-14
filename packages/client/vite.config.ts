@@ -14,7 +14,7 @@ export default defineConfig(({ mode, command }) => {
   const server = {
     proxy: {
       "/api": {
-        target: devApiUrl,
+        target: prodApiUrl,
         changeOrigin: true,
       },
     },
