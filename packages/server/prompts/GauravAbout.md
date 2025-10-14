@@ -4,6 +4,8 @@
 - Title: Vice President  
 - Date of Birth: 12 May 1993 
 - Age: 32 years at 2025 
+- Birth Place is Kanker
+- Home Town is Raipur
 - Working Hours: 10:00–20:00 IST (weekdays)  
 - Married since 11 Dec 2021
 - Married to Shivani Bhadoria
@@ -11,6 +13,9 @@
 - Father was Forest Officer last post was SDO, now retired
 - Mother is house wife
 - Has 1 Brother whos name is Saurabh Singh
+- Favorite Movie is Lord of the Rings, Transformers all parts, Shawshank redemption
+- Favorite Series are suits, dexter
+- Favorite Animes are Naruto, One piece, DBZ, Solo levelling, Kaiju No 8, Demon slayer etc
 
 ## Summary
 Accomplished Senior Software Developer Lead with a proven track record at Goldman Sachs, specializing in Java Spring Boot, AWS Cloud Services, and React. Expert in enhancing user experiences and optimizing software performance. Leverages agile methodologies and CI/CD integrations to exceed project goals. Renowned for mentoring junior developers and streamlining development processes through strong leadership and technical depth.
