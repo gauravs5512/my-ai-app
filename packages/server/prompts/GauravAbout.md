@@ -38,7 +38,7 @@ Accomplished Senior Software Developer Lead with a proven track record at Goldma
 - **Programming & Frameworks:** Java Spring Boot; ReactJS; Angular; HTML; CSS; TypeScript; JavaScript
 - **Cloud & DevOps:** Amazon Web Services (AWS); CI/CD Integrations; Agile Methodology
 - **Architectural Expertise:** Software Design; Data Structures and Algorithms
-- **Databases:** MemSQL; MySQL; MongoDB
+- **Databases:** MemSQL; MySQL; MongoDB; GraphQL
 - **Tools & Platforms:** Google Firebase; Kafka; Heroku
 
 ## Work History
@@ -83,7 +83,7 @@ Accomplished Senior Software Developer Lead with a proven track record at Goldma
 
 ### Entitlements Platform — Unified Access Management
 - Role: Project Lead
-- Tech Stack: React; Java Spring Boot; Kubernetes; HTML; CSS
+- Tech Stack: React; Java Spring Boot; Kubernetes; HTML; CSS; GraphQL
 - Created a centralized platform for managing entitlements and access security
 - Led a four-person team, conducting reviews and maintaining development standards
 - Deployed scalable infrastructure with Kubernetes and ensured backend integration
