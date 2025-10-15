@@ -60,6 +60,7 @@ export const resumeData: ResumeData = {
       skills: [
         "Java & Spring Boot microservices design",
         "React, Angular, TypeScript, HTML, CSS",
+        "GraphQL API design and schema governance",
         "Software design, data structures, and algorithms",
         "Generative AI delivery (OpenAI APIs, MCP server integrations)",
       ],
@@ -84,6 +85,7 @@ export const resumeData: ResumeData = {
     "OpenAI APIs",
     "MCP Servers",
     "Generative AI",
+    "GraphQL",
     "AWS",
     "Kubernetes",
     "Kafka",
@@ -177,6 +179,7 @@ export const resumeData: ResumeData = {
           ],
           techStack: [
             "React",
+            "GraphQL",
             "Java Spring Boot",
             "TypeScript",
             "AWS Cloud",
@@ -205,6 +208,7 @@ export const resumeData: ResumeData = {
             "Delivered a self-correcting portfolio platform reacting instantly to market events.",
           focus: [
             "Drove webhook-based synchronization to keep asset allocations current.",
+            "Introduced a GraphQL orchestration layer that unified portfolio analytics for web and mobile clients.",
             "Implemented AWS + Kubernetes deployment topology for availability and cost efficiency.",
             "Partnered with design teams to launch a Tailwind CSS-driven client console.",
           ],
