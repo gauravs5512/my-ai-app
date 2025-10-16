@@ -4,7 +4,6 @@ import type { ProjectGroup } from "../Resume.types";
 import BulletList from "../components/BulletList";
 import ResumeSection from "../components/ResumeSection";
 import TagList from "../components/TagList";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "../../ui/tabs";
 
 type ProjectsSectionProps = {
   groups: ProjectGroup[];
@@ -15,25 +14,21 @@ const ProjectsSection = ({ groups }: ProjectsSectionProps) => {
     return null;
   }
 
-  const [firstGroup] = groups;
-
   return (
     <ResumeSection
       title="Projects"
       icon={FolderKanban}
       description="Selected engagements spanning leadership initiatives and personal innovation."
     >
-      <Tabs defaultValue={firstGroup.id} className="space-y-6">
-        <TabsList>
-          {groups.map(({ id, title }) => (
-            <TabsTrigger key={id} value={id}>
+      <div className="space-y-8">
+        {groups.map(({ id, title, projects }) => (
+          <section key={id} aria-labelledby={`${id}-projects`}>
+            <h3
+              id={`${id}-projects`}
+              className="mb-4 text-xs font-semibold uppercase tracking-wide text-slate-500"
+            >
               {title}
-            </TabsTrigger>
-          ))}
-        </TabsList>
-
-        {groups.map(({ id, projects }) => (
-          <TabsContent key={id} value={id}>
+            </h3>
             <div className="space-y-6">
               {projects.map(
                 ({
@@ -61,9 +56,9 @@ const ProjectsSection = ({ groups }: ProjectsSectionProps) => {
                 ),
               )}
             </div>
-          </TabsContent>
+          </section>
         ))}
-      </Tabs>
+      </div>
     </ResumeSection>
   );
 };

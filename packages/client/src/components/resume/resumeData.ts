@@ -6,12 +6,13 @@ export const resumeData: ResumeData = {
   profile: {
     name: "Gaurav Singh",
     title: "Vice President · Goldman Sachs",
-    tagline: "Engineering leader powering modern enterprise platforms.",
+    tagline:
+      "Engineering leader powering modern, agentic enterprise platforms.",
     banner:
-      "Driving impact through cloud-native architectures, resilient delivery pipelines, and collaborative leadership across product engineering teams.",
+      "Driving impact through cloud-native architectures, agentic AI accelerators, resilient delivery pipelines, and collaborative leadership across product engineering teams.",
   },
   summary:
-    "Vice President and hands-on engineering leader with deep experience across large-scale platform modernization. I combine Java Spring Boot, event-driven services, and React ecosystems to ship reliable, human-centered products. My mission is to enable teams with strong technical guardrails, uplift developer experience, and continually raise the quality bar through mentorship and iterative delivery.",
+    "Vice President and hands-on engineering leader with 10 years of experience modernizing large-scale platforms. I combine Java Spring Boot, event-driven services, and React ecosystems with agentic AI and GenAI solutions to ship reliable, human-centered products. My mission is to enable teams with strong technical guardrails, uplift developer experience, and continually raise the quality bar through mentorship and iterative delivery.",
   contacts: [
     {
       id: "location",
@@ -50,7 +51,7 @@ export const resumeData: ResumeData = {
         "Digital portfolio orchestration for high-net-worth clients",
         "Real-time trading, entitlement, and settlement platforms",
         "Cross-functional leadership, mentoring, and stakeholder alignment",
-        "Generative AI strategy (OpenAI APIs, MCP servers, retrieval-augmented patterns)",
+        "Agentic and Generative AI strategy (OpenAI APIs, MCP servers, retrieval-augmented patterns)",
       ],
     },
     {
@@ -58,11 +59,11 @@ export const resumeData: ResumeData = {
       title: "Application Engineering",
       highlight: true,
       skills: [
-        "Java & Spring Boot microservices design",
         "React, Angular, TypeScript, HTML, CSS",
+        "Java & Spring Boot microservices design",
         "GraphQL API design and schema governance",
-        "Software design, data structures, and algorithms",
-        "Generative AI delivery (OpenAI APIs, MCP server integrations)",
+        "Software design, Design Patterns, data structures, and algorithms",
+        "Agentic GenAI delivery (OpenAI APIs, MCP server integrations)",
       ],
     },
     {
@@ -77,14 +78,15 @@ export const resumeData: ResumeData = {
     },
   ],
   technicalHighlights: [
-    "Java Spring Boot",
     "React",
     "TypeScript",
+    "Java Spring Boot",
     "Angular",
     "Node.js",
     "OpenAI APIs",
     "MCP Servers",
     "Generative AI",
+    "Agentic AI",
     "GraphQL",
     "AWS",
     "Kubernetes",
@@ -211,6 +213,7 @@ export const resumeData: ResumeData = {
             "Introduced a GraphQL orchestration layer that unified portfolio analytics for web and mobile clients.",
             "Implemented AWS + Kubernetes deployment topology for availability and cost efficiency.",
             "Partnered with design teams to launch a Tailwind CSS-driven client console.",
+            "Infused agentic AI insights that surface next-best actions for advisors.",
           ],
           techStack: [
             "React",
@@ -236,20 +239,6 @@ export const resumeData: ResumeData = {
             "Aligned engineering output with product milestones to accelerate releases.",
           ],
           techStack: ["React", "TypeScript", "Java", "HTML", "CSS"],
-        },
-        {
-          id: "fitla",
-          name: "Fitla – Organization-wide Fitness Tracking Application",
-          subtitle:
-            "Gamified wellness platform for organization-wide adoption.",
-          description:
-            "Built cross-platform applications syncing wearable data and leaderboards.",
-          focus: [
-            "Coordinated Android and React development to ensure consistent UX.",
-            "Deployed on Heroku and AWS to balance elasticity with cost control.",
-            "Managed real-time ranking logic to keep challenges engaging.",
-          ],
-          techStack: ["React", "Java", "Android", "Heroku", "AWS Services"],
         },
         {
           id: "iconnect",
@@ -280,10 +269,10 @@ export const resumeData: ResumeData = {
       projects: [
         {
           id: "ai-copilot",
-          name: "GenAI Copilot",
-          subtitle: "Conversational assistant for engineering teams.",
+          name: "Personal Portfolio",
+          subtitle: "AI-powered personal assistant and portfolio website.",
           description:
-            "Built an AI chatbot that streamlines code review preparation, release notes, and incident triage.",
+            "Built an AI chatbot that talk to people on behalf of me.",
           focus: [
             "Integrated OpenAI APIs with structured outputs for deterministic hand-offs to automation hooks.",
             "Extended the assistant using MCP servers to orchestrate repository navigation and domain tools.",
@@ -294,9 +283,22 @@ export const resumeData: ResumeData = {
             "TypeScript",
             "OpenAI API",
             "MCP Servers",
-            "Next.js",
             "Supabase",
           ],
+        },
+        {
+          id: "fitla",
+          name: "Fitla – Organization-wide Fitness Tracking Application",
+          subtitle:
+            "Gamified wellness platform for organization-wide adoption.",
+          description:
+            "Built cross-platform applications syncing wearable data and leaderboards.",
+          focus: [
+            "Coordinated Android and React development to ensure consistent UX.",
+            "Deployed on Heroku and AWS to balance elasticity with cost control.",
+            "Managed real-time ranking logic to keep challenges engaging.",
+          ],
+          techStack: ["React", "Java", "Android", "Heroku", "AWS Services"],
         },
       ],
     },

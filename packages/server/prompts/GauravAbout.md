@@ -1,12 +1,12 @@
 # Gaurav Singh
 
 ## Personal Profile
-- Title: Vice President  
+- Title: Vice President
 - Date of Birth: 12 May 1993 
 - Age: 32 years at 2025 
 - Birth Place is Kanker
 - Home Town is Raipur
-- Working Hours: 10:00–20:00 IST (weekdays)  
+- Working Hours: 10:00–20:00 IST (weekdays)
 - Married since 11 Dec 2021
 - Married to Shivani Bhadoria
 - Spouse is Digital content creater
@@ -18,7 +18,7 @@
 - Favorite Animes are Naruto, One piece, DBZ, Solo levelling, Kaiju No 8, Demon slayer etc (take any one at a time if generic questions)
 
 ## Summary
-Accomplished Senior Software Developer Lead with a proven track record at Goldman Sachs, specializing in Java Spring Boot, AWS Cloud Services, and React. Expert in enhancing user experiences and optimizing software performance. Leverages agile methodologies and CI/CD integrations to exceed project goals. Renowned for mentoring junior developers and streamlining development processes through strong leadership and technical depth.
+Accomplished Senior Software Developer Lead with 10 years of experience delivering resilient financial platforms at Goldman Sachs and beyond. Specializes in Java Spring Boot, AWS Cloud Services, and React while driving agentic AI and GenAI solutions that automate analysis, accelerate decision-making, and elevate customer experiences. Leverages agile methodologies and CI/CD integrations to exceed project goals and is renowned for mentoring junior developers and streamlining development processes through strong leadership and technical depth.
 
 ## Interests & Activities
 - Actively pursuing AI-focused courses and seminars
@@ -40,6 +40,7 @@ Accomplished Senior Software Developer Lead with a proven track record at Goldma
 - **Architectural Expertise:** Software Design; Data Structures and Algorithms
 - **Databases:** MemSQL; MySQL; MongoDB; GraphQL
 - **Tools & Platforms:** Google Firebase; Kafka; Heroku
+- **AI & GenAI:** Agentic AI workflows; Generative AI copilots; Prompt engineering; Retrieval-augmented generation (RAG)
 
 ## Work History
 
@@ -73,7 +74,9 @@ Accomplished Senior Software Developer Lead with a proven track record at Goldma
 
 ## Projects
 
-### Trading Platform — Real-time Day Trading Solution
+### Work Projects
+
+#### Trading Platform — Real-time Day Trading Solution
 - Role: Team Lead
 - Tech Stack: React; Java Spring Boot; JavaScript; TypeScript; AWS Cloud; Jenkins; Webhooks
 - Built a trading platform for real-time market data and client trading
@@ -81,36 +84,38 @@ Accomplished Senior Software Developer Lead with a proven track record at Goldma
 - Integrated Morningstar webhooks for live pricing and real-time data
 - Managed AWS deployment and CI/CD pipelines for automation and reliability
 
-### Entitlements Platform — Unified Access Management
+#### Entitlements Platform — Unified Access Management
 - Role: Project Lead
 - Tech Stack: React; Java Spring Boot; Kubernetes; HTML; CSS; GraphQL
 - Created a centralized platform for managing entitlements and access security
 - Led a four-person team, conducting reviews and maintaining development standards
 - Deployed scalable infrastructure with Kubernetes and ensured backend integration
 
-### Digital Portfolio Solution — Automated Investment Management
+#### Digital Portfolio Solution — Automated Investment Management
 - Role: Technical Lead
 - Tech Stack: React; Java Spring Boot; Node.js; AWS; Tailwind CSS; Webhooks; Kubernetes; Jenkins; TypeScript
 - Developed an automated portfolio rebalancing system with real-time market updates
 - Delivered an interactive frontend and AWS-hosted deployment
-- Implemented Jenkins-based CI/CD and monitored scalability through Kubernetes
+- Implemented Jenkins-based CI/CD, infused agentic AI workflows for investor insights, and monitored scalability through Kubernetes
 
-### Merricart — Health & Wellness E-commerce Platform
+#### Iconnect — Internal Monthly Settlement System
+- Role: Backend Developer
+- Tech Stack: Angular; Java Spring Boot; Microservices; Jenkins; AWS Kafka; AWS Load Balancer; Lambda
+- Built automated settlement logic with interest-based calculations
+- Enabled real-time analytics for transaction tracking and financial insights
+
+### Personal Projects
+
+#### Merricart — Health & Wellness E-commerce Platform
 - Role: Lead Developer
 - Tech Stack: React; TypeScript; Java; HTML; CSS
 - Built a health-focused e-commerce site with consultations and lab tests
 - Developed a performant React frontend and secure Java backend
 - Optimized the shopping experience for seamless performance
 
-### Fitla — Fitness Tracking Application
+#### Fitla — Fitness Tracking Application
 - Role: Full Stack Developer
 - Tech Stack: React; Java; Android; Heroku; AWS
-- Delivered a company-wide fitness tracking app featuring daily challenges and leaderboards
+- Delivered a fitness tracking app featuring daily challenges and leaderboards
 - Integrated device data for real-time tracking and rankings
 - Deployed on Heroku and AWS to ensure scalability and uptime
-
-### Iconnect — Internal Monthly Settlement System
-- Role: Backend Developer
-- Tech Stack: Angular; Java Spring Boot; Microservices; Jenkins; AWS Kafka; AWS Load Balancer; Lambda
-- Built automated settlement logic with interest-based calculations
-- Enabled real-time analytics for transaction tracking and financial insights
