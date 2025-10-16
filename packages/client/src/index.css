@@ -118,3 +118,25 @@
     @apply bg-background text-foreground;
   }
 }
+
+@media print {
+  body {
+    background: #ffffff !important;
+  }
+  body * {
+    visibility: hidden;
+  }
+  #resume-print-container,
+  #resume-print-container * {
+    visibility: visible;
+  }
+  #resume-print-container {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    margin: 0;
+  }
+  .print-hidden {
+    display: none !important;
+  }
+}

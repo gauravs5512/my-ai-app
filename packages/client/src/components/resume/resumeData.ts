@@ -12,7 +12,7 @@ export const resumeData: ResumeData = {
       "Driving impact through cloud-native architectures, agentic AI accelerators, resilient delivery pipelines, and collaborative leadership across product engineering teams.",
   },
   summary:
-    "Vice President and hands-on engineering leader with 10 years of experience modernizing large-scale platforms. I combine Java Spring Boot, event-driven services, and React ecosystems with agentic AI and GenAI solutions to ship reliable, human-centered products. My mission is to enable teams with strong technical guardrails, uplift developer experience, and continually raise the quality bar through mentorship and iterative delivery.",
+    "Software engineer with 10 years of experience in designing and developing end-to-end enterprise applications using React, TypeScript, GraphQL, and Java Spring Boot. Skilled in building intelligent and scalable solutions through agentic AI and MCP server integrations. Experienced in cloud migration, CI/CD pipeline automation, and modern DevOps practices that keep delivery seamless and operations efficient. Proven ability to lead teams, drive architectural decisions, and deliver innovative, high-quality solutions aligned with business goals.",
   contacts: [
     {
       id: "location",
@@ -44,25 +44,14 @@ export const resumeData: ResumeData = {
   ],
   skillGroups: [
     {
-      id: "systems",
-      title: "Capital Markets Systems Leadership",
-      highlight: true,
-      skills: [
-        "Digital portfolio orchestration for high-net-worth clients",
-        "Real-time trading, entitlement, and settlement platforms",
-        "Cross-functional leadership, mentoring, and stakeholder alignment",
-        "Agentic and Generative AI strategy (OpenAI APIs, MCP servers, retrieval-augmented patterns)",
-      ],
-    },
-    {
       id: "engineering",
       title: "Application Engineering",
       highlight: true,
       skills: [
-        "React, Angular, TypeScript, HTML, CSS",
-        "Java & Spring Boot microservices design",
+        "React, Angular, TypeScript, HTML, CSS, JavaScript, Redux",
+        "Java & Spring Boot, Node.js",
         "GraphQL API design and schema governance",
-        "Software design, Design Patterns, data structures, and algorithms",
+        "Software design, design patterns, data structures, and algorithms",
         "Agentic GenAI delivery (OpenAI APIs, MCP server integrations)",
       ],
     },
@@ -71,9 +60,18 @@ export const resumeData: ResumeData = {
       title: "Cloud, Data & DevOps",
       highlight: true,
       skills: [
-        "AWS, Google Firebase, Heroku",
-        "MemSQL, MySQL, MongoDB, Kafka",
-        "CI/CD integrations (Jenkins) and Agile delivery",
+        "AWS, Kubernetes",
+        "MongoDB, MySQL",
+        "CI/CD integrations with GitLab, Jenkins, Sonar, code coverage",
+      ],
+    },
+    {
+      id: "tools",
+      title: "Tools & IDE's",
+      highlight: false,
+      skills: [
+        "GitHub Copilot, ChatGPT's Codex",
+        "VS Code, IntelliJ IDEA 2025",
       ],
     },
   ],
@@ -83,15 +81,20 @@ export const resumeData: ResumeData = {
     "Java Spring Boot",
     "Angular",
     "Node.js",
+    "GraphQL",
+    "Redux",
     "OpenAI APIs",
     "MCP Servers",
     "Generative AI",
     "Agentic AI",
-    "GraphQL",
+    "MongoDB",
+    "MySQL",
     "AWS",
     "Kubernetes",
     "Kafka",
+    "GitLab CI/CD",
     "Jenkins CI/CD",
+    "SonarQube",
     "Tailwind CSS",
     "Supabase",
   ],
@@ -103,11 +106,10 @@ export const resumeData: ResumeData = {
       location: "Bengaluru, India",
       period: "Jul 2022 – Present",
       achievements: [
-        "Leading a five-engineer pod modernizing large-scale customer-facing platforms with measurable UX and performance improvements.",
-        "Architected event-driven services that automate oversight-heavy workflows and keep data models synchronized in real time.",
-        "Partnered with product and business stakeholders to translate strategic goals into scalable technical roadmaps.",
-        "Directed adoption of Angular and Tailwind CSS patterns that improved UX consistency and accelerated front-end delivery.",
-        "Optimized platform elasticity through AWS services, ensuring rapid response to unpredictable demand spikes.",
+        "Team leadership and mentorship: Provided technical guidance, conducted code reviews, and enforced best practices to foster a collaborative, high-performing pod.",
+        "Scalable infrastructure with Kubernetes: Led adoption of container orchestration to support demanding scalability needs across access management workloads.",
+        "Intuitive frontend development: Directed a clean interface using React, HTML, and CSS, streamlining experiences for internal teams.",
+        "Seamless backend delivery: Supervised Java Spring Boot services to ensure compatibility with enterprise infrastructure and reliable performance.",
       ],
     },
     {
@@ -117,10 +119,8 @@ export const resumeData: ResumeData = {
       location: "Bengaluru, India",
       period: "Jun 2021 – Jun 2022",
       achievements: [
-        "Delivered full-stack features across React, TypeScript, Angular, and Spring Boot services supporting distributed teams.",
-        "Implemented DevOps pipelines and AWS deployments that shortened release cycles and hardened production readiness.",
-        "Mentored engineers on coding standards and collaboration patterns, raising overall team efficiency and quality.",
-        "Provided rapid incident response and debugging support to safeguard mission-critical operations.",
+        "Full stack development expertise: Delivered scalable features across React, TypeScript, and Java Spring Boot for distributed teams.",
+        "Cloud & DevOps proficiency: Built AWS-backed pipelines and automated deployments to accelerate releases and reinforce reliability.",
       ],
     },
     {
@@ -130,9 +130,8 @@ export const resumeData: ResumeData = {
       location: "Hyderabad, India",
       period: "May 2018 – Jun 2021",
       achievements: [
-        "Engineered webhook-driven, real-time data feeds that keep downstream analytics current and actionable.",
-        "Aligned solutions with business and compliance teams, ensuring stakeholder value and regulatory adherence.",
-        "Executed large-scale deployments with rigorous testing, keeping mission-critical services stable.",
+        "Full stack development expertise: Built React, TypeScript, and Java Spring Boot modules for enterprise-grade platforms.",
+        "Orchestrated efficient large-scale deployments, including rigorous testing and remediation to keep services stable.",
       ],
     },
     {
@@ -142,8 +141,8 @@ export const resumeData: ResumeData = {
       location: "Bangalore, India",
       period: "Jan 2017 – May 2018",
       achievements: [
-        "Collaborated with cross-functional teams to define product intent and deliver high-availability workflow systems.",
-        "Supported business analysts and infrastructure specialists to maintain uptime for enterprise-grade applications.",
+        "Collaborated with developers and product owners to maintain alignment on product functionality and roadmap priorities.",
+        "Worked with analysts, engineering, and infrastructure teams to deliver high availability for mission-critical applications.",
       ],
     },
   ],
@@ -173,32 +172,26 @@ export const resumeData: ResumeData = {
           name: "Trading Platform – Real-time Day Trading Solution",
           subtitle: "Lead engineer for a revenue-critical trading cockpit.",
           description:
-            "Guided a team of five in delivering real-time market visibility and decision support for day traders.",
+            "Led the frontend development of a high-performance trading platform enabling clients to execute trades and monitor live market data.",
           focus: [
-            "Implemented Morningstar webhook integrations for live price streaming and order execution confidence.",
-            "Operationalized AWS infrastructure for scale, fortified with Jenkins pipelines for resilient deployments.",
-            "Shaped a responsive React + TypeScript experience, keeping financial data actionable and intuitive.",
+            "Developed a responsive, modular React + TypeScript UI optimized for large streaming data sets.",
+            "Enhanced backend trade execution logic and caching strategies to improve reliability and response times.",
+            "Deployed containerized workloads on Kubernetes and automated delivery pipelines to accelerate releases.",
           ],
-          techStack: [
-            "React",
-            "GraphQL",
-            "Java Spring Boot",
-            "TypeScript",
-            "AWS Cloud",
-            "Jenkins",
-            "Webhooks",
-          ],
+          techStack: ["React", "Java Spring Boot", "Kubernetes", "HTML", "CSS"],
         },
         {
           id: "entitlements-platform",
           name: "Entitlements Platform – Unified Access Management Solution",
           subtitle: "Project lead for enterprise-grade entitlement governance.",
           description:
-            "Directed a four-person squad building centralized access management that tightened security across banking teams.",
+            "Led a four-person team to centralize entitlement processes and tighten organizational security.",
           focus: [
-            "Standardized code reviews and best practices to balance agility with compliance.",
-            "Leveraged Kubernetes for dynamic scaling of sensitive entitlement workloads.",
-            "Seamlessly connected React front ends with Spring Boot services for faster approvals.",
+            "Provided technical guidance, code reviews, and best practices to sustain a high-performing team.",
+            "Leveraged Kubernetes for scalable container management supporting mission-critical workloads.",
+            "Guided architectural decisions for unified entitlement workflows that simplified approvals and boosted security.",
+            "Supervised Java Spring Boot services to integrate seamlessly with existing enterprise systems.",
+            "Directed React, HTML, and CSS development to deliver a clean experience for internal stakeholders.",
           ],
           techStack: ["React", "Java Spring Boot", "Kubernetes", "HTML", "CSS"],
         },
@@ -207,13 +200,12 @@ export const resumeData: ResumeData = {
           name: "Digital Portfolio Solution – Automated Investment Management Platform",
           subtitle: "Product engineering for automated portfolio stewardship.",
           description:
-            "Delivered a self-correcting portfolio platform reacting instantly to market events.",
+            "Developed a real-time portfolio platform that automatically rebalances allocations based on market signals.",
           focus: [
-            "Drove webhook-based synchronization to keep asset allocations current.",
-            "Introduced a GraphQL orchestration layer that unified portfolio analytics for web and mobile clients.",
-            "Implemented AWS + Kubernetes deployment topology for availability and cost efficiency.",
-            "Partnered with design teams to launch a Tailwind CSS-driven client console.",
-            "Infused agentic AI insights that surface next-best actions for advisors.",
+            "Designed an intuitive React and Tailwind CSS interface for investor insights.",
+            "Used webhooks to keep portfolio data synchronized in real time.",
+            "Deployed AWS- and Kubernetes-backed infrastructure to guarantee availability and scalability.",
+            "Automated CI/CD with Jenkins pipelines to streamline continuous delivery.",
           ],
           techStack: [
             "React",
@@ -232,11 +224,12 @@ export const resumeData: ResumeData = {
           name: "Merricart – E-commerce Platform for Health and Wellness",
           subtitle: "Consumer digital experience emphasizing trust and growth.",
           description:
-            "Architected an omnichannel commerce journey supporting consultations and lab scheduling.",
+            "Created an e-commerce platform focused on health products with integrated consultations and lab bookings.",
           focus: [
-            "Crafted a modular React + TypeScript storefront for rapid feature iteration.",
-            "Integrated secure Java back-end flows for payments and customer data.",
-            "Aligned engineering output with product milestones to accelerate releases.",
+            "Developed a dynamic React and TypeScript storefront optimized for growth.",
+            "Integrated secure Java services to handle transactions and sensitive customer data.",
+            "Partnered with product teams to align technical milestones with user journeys.",
+            "Architected for scalability and maintainability to support evolving customer needs.",
           ],
           techStack: ["React", "TypeScript", "Java", "HTML", "CSS"],
         },
@@ -272,7 +265,7 @@ export const resumeData: ResumeData = {
           name: "Personal Portfolio",
           subtitle: "AI-powered personal assistant and portfolio website.",
           description:
-            "Built an AI chatbot that talk to people on behalf of me.",
+            "Built an AI chatbot that interacts with visitors on my behalf while presenting my work.",
           focus: [
             "Integrated OpenAI APIs with structured outputs for deterministic hand-offs to automation hooks.",
             "Extended the assistant using MCP servers to orchestrate repository navigation and domain tools.",
@@ -292,7 +285,7 @@ export const resumeData: ResumeData = {
           subtitle:
             "Gamified wellness platform for organization-wide adoption.",
           description:
-            "Built cross-platform applications syncing wearable data and leaderboards.",
+            "Built a fitness tracking app promoting team wellness with challenges, leaderboards, and device integrations.",
           focus: [
             "Coordinated Android and React development to ensure consistent UX.",
             "Deployed on Heroku and AWS to balance elasticity with cost control.",
